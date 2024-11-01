@@ -1,0 +1,22 @@
+*{
+    font-size:40px;
+}
+body{
+    background-color:black;
+}
+#list,a{
+    color:white;
+}
+.spec:hover,a:hover{
+    color:grey;
+}
+#list{
+    outline:red solid 3px;
+    width:210px;
+    height:350px;
+    margin:auto;
+
+}
+#spot{
+    padding-top:10px;
+}

@@ -1,0 +1,48 @@
+h1{
+    text-align:center;
+    color:white;
+}
+body{
+    background-color:black;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.cologe{
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color:grey;
+    width:800px;
+    padding:10px;
+}
+.pack{
+    height:200px;
+    padding:10px;
+}
+div.scroll-container {
+    background-color: #333;
+    display:flex;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+  @media only screen and (min-width: 480px)
+  {
+    .cologe{
+        width:500px;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    .cologe{
+        width:800px;
+    }
+    
+
+  }

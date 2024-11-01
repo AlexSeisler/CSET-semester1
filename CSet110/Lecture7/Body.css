@@ -1,0 +1,90 @@
+*{
+    color:lightslategrey;
+    font-size: large;
+}
+body{
+    font-family:'Lato';
+}
+h2:after{
+    display:block;
+    height:2px;
+    width:100px;
+    background-color: orange;
+    content:" ";
+    margin: auto;
+    margin-top:30px;
+}
+#top{
+    width:700px;
+}
+h2{
+    font-size:30px;
+}
+.image{
+    width:100%;
+    height:100%;
+}
+.page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:60px;
+    
+    
+    
+}
+.Cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+    
+}
+.Card{
+    display:flex;
+    flex-direction: column;
+    width:280px;
+    
+}
+.icon-big{
+    font-size:350%;
+    display:block;
+    color:orange;
+    margin-bottom:10px;
+    --ionicon-stroke-width:20px;
+}
+.items{
+    display:flex;
+    flex-wrap: wrap;
+}
+.image{
+    opacity: 0.7;
+    transform: scale(1.15);
+    overflow:hidden;
+    background-color: #000;
+    transition: transform 0.5s, opacity 0.5s;
+    object-fit: cover;
+    overflow:hidden;
+}
+.image:hover{
+    opacity:1;
+    transform: scale(1);
+    overflow:none;
+}
+#meals{
+    padding:0;
+    margin:0;
+    display:flex;
+    position:relative;
+    right:40%;
+    top:40px;
+    font-size: 30px;
+    color:orangered;
+    font-weight:bolder;
+}
+.over{
+    height:25%;
+    width:25%;
+    display:flex;
+    overflow: hidden;
+}

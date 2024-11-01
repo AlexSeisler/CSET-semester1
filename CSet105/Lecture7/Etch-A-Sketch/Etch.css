@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.grid-item{
+    width:20px;
+    height:20px;
+    background-color: white;
+    outline: 1px solid black
+}
+#grid-container{
+    display:flex;
+    flex-wrap:wrap;
+    height:320px;
+    width:320px;
+
+}
+#grid-container:hover{
+
+}
+#page{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+#theButton{
+    width:100px;
+    display:flex;
+    justify-content: center;
+}

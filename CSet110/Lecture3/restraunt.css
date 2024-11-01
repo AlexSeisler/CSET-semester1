@@ -1,0 +1,121 @@
+
+.header{
+    display:block;
+    height:300px;
+    outline:black solid 3px; 
+    overflow:hidden;
+}
+.link{
+    margin:20px;
+    padding:20px;
+    height:100px;
+    width:200px;
+    background-color: rgb(64, 61, 79);
+    position: relative;
+    left:200px;
+    bottom:50px;
+    text-decoration: none;
+    color:black;
+    overflow:hidden;
+    box-shadow: 0 0 4px rgba(240, 234, 234, 0.6);
+    border-radius:15px;
+    color:white;
+    
+}
+#showLinksBtn
+{
+    display:inline;
+    height:100px;
+    width:200px;
+    border-radius:20px;
+    background-color: rgb(198, 181, 72);
+    box-shadow: 0 0 4px rgba(196, 189, 189, 0.6);
+    overflow:hidden;
+
+}
+#front{
+    display:block;
+    width:700px;
+    float:left;
+    padding:30px;
+
+}
+.cards{
+    height:400px;
+    width:90%;
+    margin:20px 1.15%;
+    padding: 10px;
+    text-align: center;
+    
+}
+#rightcards{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    padding:30px;
+    background-color: white;
+    border-radius:15px;
+    font-size: larger;
+    
+    
+}
+#bottomcards{
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+    
+}
+.cards1{
+    height:200px;
+
+    float: left;
+    width:31%;
+    margin:20px 1.15%;
+    background: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    border-radius:20px;
+    
+    
+    
+    
+}
+#left{
+
+    display:block;
+    float:left;
+
+
+    padding:10px;
+
+}
+#right{
+    display:block;
+    float:right;
+    width:550px;
+    margin:20px 1.15%;
+    padding:10px;
+    font-size: larger;
+    overflow:hidden;
+    
+}
+#featured{
+    height:300px;
+    width:60%;
+    background: rgb(237, 231, 59);
+    padding: 30px;px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20px;
+}
+
+body {
+    background-image: url('https://wallpapercave.com/wp/wp2639536.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  }

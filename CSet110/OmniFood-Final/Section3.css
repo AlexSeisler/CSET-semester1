@@ -1,0 +1,127 @@
+.sets{
+    height:50px;
+    width:auto;
+}
+.hyper{
+    display:flex;
+    gap:15px;
+    padding-top:75px;
+}
+.list2{
+    display:flex;
+    gap:25px;
+    align-items: center;
+    width:600px;
+}
+.number{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:orange solid 2px;
+    height:60px;
+    width:60px;
+    border-radius:60px;
+    color:orange;
+    font-size:25px;
+}
+.text5{
+    color:grey;
+    font-family:'Lato';
+    font-size:25px;
+}
+#phone{
+    width:25%;
+    height:auto;
+}
+.content{
+    display:flex;
+    gap:75px;
+    align-items: center;
+}
+.page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#header7{
+    font-family:'Lato';
+    font-weight:20;
+    font-size:30px;
+    color:darkgrey;
+}
+
+#header7:after{
+    display:block;
+    height:2px;
+    width:100px;
+    background-color: orange;
+    content:" ";
+    margin: auto;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.description{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    font-family:'Lato';
+    font-size:18px;
+    color:darkgrey;
+}
+.places{
+    height:100%;
+    width:auto;
+
+}
+.item6{
+    display:flex;
+    flex-direction: column;
+    line-height: 0px;
+    max-width: 20%;
+    overflow:hidden;
+    color:darkgray;
+    font-family:'Lato';
+    
+    
+}
+.City{
+    font-weight: 20;
+}
+.Cities{
+    font-weight: 100;
+}
+ion-icon{
+    font-size:100%;
+    display:block;
+    color:orange;
+    margin-bottom:10px;
+    --ionicon-stroke-width:20px;
+}
+.items3{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lato';
+    font-weight:20;
+    font-size:30px;
+    color:darkgrey;
+}
+.page1{
+    display:flex;
+    flex-direction: column;
+    margin-top:50px;
+    
+}
+.tag{
+    color:orange;
+}
+.total{
+    padding-bottom:40px;
+}

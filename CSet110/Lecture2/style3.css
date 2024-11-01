@@ -1,0 +1,47 @@
+p{
+    font-style: lato;
+}
+body{
+    background-image:url("https://th.bing.com/th/id/OIP.eNnKZNB-8F2RBIIjrj-xDgHaD4?rs=1&pid=ImgDetMain");
+   background-size:1000px auto;
+   background-attachment: fixed;
+}
+.base{
+    outline:blueviolet solid 10px;
+    background-color:black;
+    color:white;
+}
+#main{
+    height:475px;
+    width:500px;
+    position:absolute;
+    left:150px;
+}
+#main1{
+    height:730px;
+    width:500px;
+    position:absolute;
+    left:700px;
+    align-items:center;
+}
+#main2{
+    height:475px;
+    width:500px;
+    position:absolute;
+    left:1250px;
+}
+#main3{
+    height:500px;
+    width:500px;
+    position:absolute;
+    left:700px;
+    top:1600px;
+}
+h1{
+    text-align:center;
+}
+img{
+    align-items:center;
+    text-align:center;
+    margin-left:15px;
+}

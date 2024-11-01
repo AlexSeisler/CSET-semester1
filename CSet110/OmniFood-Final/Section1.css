@@ -1,0 +1,116 @@
+html{
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif ;
+    font-size:20px;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgb(0,0,0,0.7)), url(images/hero.jpg);
+    background-size:cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.row{
+    max-width: 1140;
+    margin: 0 auto;
+    display:flex;
+}
+.hero-text-box{
+    width:1140px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color:white;
+    font-size: 200%;
+    font-weight:100;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+.nav-bar{
+}
+.navigation{
+    color: white;
+    text-transform:uppercase;
+    list-style-type:none;
+    display:flex;
+    justify-content: flex-end;
+    position:relative;
+    left:50%;
+    top:35px;
+}
+li{
+    padding-left:20px;
+    padding-right:20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    border-bottom: rgba(0,0,0,0);
+}
+a:hover{
+    border-bottom:orange solid 3px;
+}
+#but:hover{
+    border-bottom:orange solid 3px;
+    background-color:#cf6d17;
+}
+ul{
+    list-style-type: none;
+    border-bottom-color:transparent;
+}
+.btn{
+    display:inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color:#fff;
+}
+.btn-full{
+    background-color:#e67e22;
+    border: 1px solid #e67e22;
+    color:#fff;
+}
+.btn-ghost{
+    border: 1px solid;
+    color:#e67e22;
+    transition: color 0.2s;
+}
+
+.btn-full:hover, .btn-full:active{
+    border: 1px solid #cf6d17;
+}
+.btn-ghost:hover, .btn-ghost:active{
+    border: 1px solid #cf6d17;
+    color:#fff;
+}
+.logo{
+    height:100px;
+    position:absolute;
+    top:35px;
+    left:15%;
+    width:auto;
+    float:left;
+}
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }

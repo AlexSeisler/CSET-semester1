@@ -1,0 +1,80 @@
+div{
+}
+#page{
+    display:flex;
+    flex-direction:column;
+}
+p{
+    padding-left:10px;
+    padding-top:10px;
+    font-size: 30px;
+}
+.header{
+    background-color: skyblue;
+    color:white;
+    
+}
+.flex-container{
+
+}
+#Hero{
+
+    background-color:red;
+    color:white;
+    height:300px;
+}
+#Content{
+    background-color: green;
+    color:white;
+    flex: 1;
+    height:200px;
+    
+
+}
+#Sidebar{
+    background-color: blueviolet;
+    color:white;
+    flex: 0 1 300px;
+    height:200px;
+
+
+}
+.footer{
+    background-color: grey;
+    color:white;
+}
+
+@media screen and (min-width: 640px){
+    .flex-container {
+        display: flex;
+        gap:10px;
+    }    
+    #Sidebar{
+        height:600px;
+    }
+    #Content{
+        height:600px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .wrapper {
+        margin: auto;
+        max-width: 75rem;
+        min-width: 1000px;
+    }
+    #Sidebar{
+        height:600px;
+    }
+    #Content{
+        height:600px;
+    }
+}
+
+
+
+
+
+
+
+

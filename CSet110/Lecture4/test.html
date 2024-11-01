@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Base styles for desktop */
+        body {
+            font-size: 16px;
+            background-color: lightblue;
+            transition: all 0.3s;
+        }
+
+        /* Tablet styles using media queries */
+        @media (max-width: 1024px) {
+            body {
+                background-color: lightgreen;
+            }
+            .tablet {
+                font-size: 14px;
+            }
+        }
+
+        /* Mobile styles using media queries */
+        @media (max-width: 768px) {
+            body {
+                background-color: lightcoral;
+            }
+            .mobile {
+                font-size: 12px;
+            }
+        }
+
+        /* Button styles */
+        .button-container {
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Responsive View Switcher</title>
+</head>
+<body>
+    <div class="button-container">
+        <button onclick="changeView('desktop')">Desktop View</button>
+        <button onclick="changeView('tablet')">Tablet View</button>
+        <button onclick="changeView('mobile')">Mobile View</button>
+    </div>
+
+    <h1>Responsive View</h1>
+    <p>This text size and background color will change based on the selected view mode and screen width.</p>
+
+</body>
+</html>

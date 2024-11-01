@@ -1,0 +1,173 @@
+.body{
+    
+}
+.page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('images/Omnifood Contents/back-customers.jpg');
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    height:650px;
+}
+.header1{
+    color:ghostwhite;
+    font-weight:10;
+    font-family:"Lato";
+    font-size:40px;
+}
+.header1:after{
+    display:block;
+    height:2px;
+    width:100px;
+    background-color: orange;
+    content:" ";
+    margin: auto;
+    margin-top:25px;
+    margin-bottom:60px;
+}
+.test{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    width:500px;
+    color:ghostwhite;
+    font-size: 25px;
+    font-family:"Lato";
+    font-weight:10;
+    text-align: left;
+}
+.testimonials{
+    display:flex;
+    gap:25px;
+    justify-content: center;
+}
+.profile{
+    display:flex;
+    gap:10px;
+
+}
+.pic{
+    height:60px;
+    width:auto;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerText{
+    padding:0px;
+    margin:0px;
+}
+.innerText:before{
+    content: "\201C";
+    font-size:500%;
+    display:block;
+    line-height:5px;
+}
+.header2{
+    color:black;
+    font-family: "Lato";
+    font-weight:200;
+    font-size:35px;
+    text-align: center;
+}
+.header2:after{
+    display:block;
+    height:2px;
+    width:100px;
+    background-color: orange;
+    content:" ";
+    margin: auto;
+    margin-top:25px;
+}
+.prices{
+    display:flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    padding:30px;
+    
+}
+.options{
+    display:flex;
+    justify-content: center;
+    background-color: #F4F4F4;
+    gap:75px;
+    
+}
+.option{
+    background-color:white;
+    padding:20px;
+    width:400px;
+    height:430px;
+    box-shadow:0 2px 2x #cac5c5;
+    
+}
+.spot{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.unlock{
+    display:flex;
+    flex-direction: column;
+}
+.case{
+    font-size:28px;
+    font-weight:200;
+    font-family:"Lato";
+    display:flex;
+    align-items: center;
+    gap:15px;
+    
+}
+.price{
+    font-size:300%;
+    font-weight:100;
+    margin:0px;
+    font-family: "Lato";
+    color:orange;
+}
+.month{
+    font-size:100%;
+    font-weight:300;
+    color:orange;
+}
+.chance{
+    font-size:80%;
+    margin:10px;
+    
+}
+.title{
+    font-size:25px;
+    font-weight:200;
+    font-family: "Lato";
+    margin:15px;
+}
+.signUp{
+    height:40px;
+    width:180px;
+    border-radius:20px;
+    outline:orange solid 2px;
+    border:none;
+    font-size:20px;
+    font-family:"Lato";
+    font-weight:100;
+    color:orange;
+    background-color:white;
+}
+.signUp:hover{
+    background-color: orange;
+    color:white;
+}
+.but{
+    text-align: center;
+}
+ion-icon{
+    color:orange;
+    font-size:30px;
+    display:flex;
+}
+#space{
+    font-size:23px;
+}
+
