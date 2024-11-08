@@ -609,8 +609,11 @@ header .socials ul li a:hover {
 }
 
 #projects .container .card1 {
-  background: url(images/THADDEUS\ STEVENS\ LOGO\ background.png);
+  background: url(images/RPS.png);
 }
+#projects .container .card2 {
+    background: url(images/colorfulButtons.png);
+  }
 .reveal {
   position: relative;
   -webkit-transform: translateY(5rem);
