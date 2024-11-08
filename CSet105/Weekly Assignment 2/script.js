@@ -10,4 +10,3 @@ function revealProjects() {
     }
   }
   revealProjects();
-  reavealProjects();

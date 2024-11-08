@@ -21,7 +21,9 @@
   --card-background: #eeeeee;
   --skills-span: rgb(61, 61, 61);
 }
-
+.container{
+  max-width:800px;
+}
 * {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
@@ -614,6 +616,9 @@ header .socials ul li a:hover {
 #projects .container .card2 {
     background: url(images/colorfulButtons.png);
   }
+  #projects .container .card3 {
+    background: url(images/Screenshot\ 2024-11-07\ 212318.png);
+  }
 .reveal {
   position: relative;
   -webkit-transform: translateY(5rem);
@@ -967,20 +972,7 @@ header .socials ul li a:hover {
   }
 }
 
-@media screen and (max-width: 1260px) {
-  #skills .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
+
 
 .nav-active {
   z-index: 1000;
