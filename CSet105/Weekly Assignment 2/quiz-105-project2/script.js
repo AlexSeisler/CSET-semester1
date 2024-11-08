@@ -157,7 +157,11 @@ function checkAnswerAndNext()
         document.getElementById("nextQuestionButton").style.display = "none";
         const scoreDisplay = document.getElementById("scoreDisplay");
         scoreDisplay.textContent = `Quiz Completed! Your score is: ${score} out of ${questions.length}`;
+        document.getElementById("reset").style.display = "block";
     }
+    function reloadPage() {
+        location.reload(); // Reloads the current page
+      }
 
 
 

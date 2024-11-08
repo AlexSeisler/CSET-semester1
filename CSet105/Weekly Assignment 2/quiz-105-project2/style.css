@@ -38,4 +38,7 @@ body{
 #head{
     margin-top:20px;
 }
+#reset{
+    display:none;
+}
 
